@@ -1,0 +1,10 @@
+{
+  "FACE": {
+    "API_KEY": "b65aa6110a524ce6b30b0a9731b58aaa",
+    "ENDPOINT": "https://pythonfacecarlos.cognitiveservices.azure.com/"
+  },
+  "VISION": {
+    "API_KEY": "535d4fce4f694e34a710babbddbbbcbf",
+    "ENDPOINT": "https://espolcomputervision.cognitiveservices.azure.com/"
+  }
+}

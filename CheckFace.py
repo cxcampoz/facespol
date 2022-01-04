@@ -51,21 +51,20 @@ class CheckFace:
         print("Pass: {} \n".format(pass_trip))
         print("----END----\n")
 
+        img = Image.open(img_file)
+        draw = ImageDraw.Draw(img)
+
+        for face in response_detected_faces:
+            rect = face.face_rectangle
+            left = rect.left
+            top = rect.top
+            right = rect.width + left
+            bottom = rect.height + top
+            draw.rectangle(((left, top), (right, bottom)),
+                           outline='green', width=5)
+
+        img.show()
         return pass_trip
-
-        # img = Image.open(img_file)
-        # draw = ImageDraw.Draw(img)
-
-        # for face in response_detected_faces:
-        #     rect = face.face_rectangle
-        #     left = rect.left
-        #     top = rect.top
-        #     right = rect.width + left
-        #     bottom = rect.height + top
-        #     draw.rectangle(((left, top), (right, bottom)),
-        #                    outline='green', width=5)
-
-        # img.show()
 
     def checkFamous(self, imageRoute):
         resultName = "none"

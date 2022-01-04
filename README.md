@@ -40,8 +40,8 @@ name: Tom Holland
 
 ### Before
 
-[alt text](./images/tom_fake.jpg)
+![alt text](https://github.com/cxcampoz/facespol/blob/master/images/tom_fake.jpg)
 
 ### After
 
-![alt text](./images/tom_face.jpg)
+![alt text](https://github.com/cxcampoz/facespol/blob/master/images/tom_face.png)

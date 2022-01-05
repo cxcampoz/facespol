@@ -7,11 +7,6 @@ from azure.cognitiveservices.vision.computervision.models import VisualFeatureTy
 from msrest.authentication import CognitiveServicesCredentials
 from PIL import Image, ImageDraw
 
-from array import array
-import os
-import sys
-import time
-
 
 class CheckFace:
 
@@ -22,6 +17,7 @@ class CheckFace:
 
     def analyceImage(self, imageRoute):
         pass_trip = True
+        dimentions = []
         face_client = FaceClient(
             self.FACE["ENDPOINT"], CognitiveServicesCredentials(self.FACE["API_KEY"]))
 
@@ -60,11 +56,12 @@ class CheckFace:
             top = rect.top
             right = rect.width + left
             bottom = rect.height + top
-            draw.rectangle(((left, top), (right, bottom)),
-                           outline='green', width=5)
+            dimentions = [left, top, right, bottom]
+            # draw.rectangle(((left, top), (right, bottom)),
+            #                outline='green', width=5)
 
-        img.show()
-        return pass_trip
+        # img.show()
+        return [pass_trip, dimentions]
 
     def checkFamous(self, imageRoute):
         resultName = "none"

@@ -1,0 +1,26 @@
+{
+  "Tom Holland": {
+    "Matricula": "17212227465",
+    "Nombre": "Tom Holland",
+    "Facultad": "Computación",
+    "Carrera": "Ciencias de la Computación",
+    "Fecha de nacimiento": "01/12/1880",
+    "Firma": "https://upload.wikimedia.org/wikipedia/commons/6/67/Firma_de_Joaqu%C3%ADn_Baranda.png"
+  },
+  "Bob Marley": {
+    "Matricula": "17212227465",
+    "Nombre": "Bob Marley",
+    "Facultad": "Computación",
+    "Carrera": "Ciencias de la Computación",
+    "Fecha de nacimiento": "01/12/1880",
+    "Firma": "https://upload.wikimedia.org/wikipedia/commons/6/67/Firma_de_Joaqu%C3%ADn_Baranda.png"
+  },
+  "Hugh Jackman": {
+    "Matricula": "17212227465",
+    "Nombre": "Hugh Jackman",
+    "Facultad": "Computación",
+    "Carrera": "Ciencias de la Computación",
+    "Fecha de nacimiento": "01/12/1880",
+    "Firma": "https://upload.wikimedia.org/wikipedia/commons/6/67/Firma_de_Joaqu%C3%ADn_Baranda.png"
+  }
+}
